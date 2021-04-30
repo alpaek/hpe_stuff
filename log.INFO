@@ -1,0 +1,756 @@
+I@20210430 15:55:32.242 tigergraph|127.0.0.1:56918|00000000522 (BaseHandler.java:133) Received|POST|/gsql/login|28
+I@20210430 15:55:32.243 tigergraph|127.0.0.1:56918|00000000522 (LoginHandler.java:52) The gsql client is started on the server, and the working directory is /home/xilinx/alexp
+I@20210430 15:55:32.243 tigergraph|127.0.0.1:56918|00000000522 (LoginHandler.java:80) Successful|Login|tigergraph
+I@20210430 15:55:32.243 tigergraph|127.0.0.1:56918|00000000522 (BaseHandler.java:167) Successful|POST|/gsql/login|application/json; charset=UTF-8|2ms
+I@20210430 15:55:32.249 tigergraph|127.0.0.1:56918|00000000522 (BaseHandler.java:133) Received|POST|/gsql/file|9
+I@20210430 15:55:32.249 tigergraph|127.0.0.1:56918|00000000522 (FileHandler.java:42) show user
+I@20210430 15:55:32.249 tigergraph|127.0.0.1:56918|00000000522 (CatalogManager.java:633) getCatalog: null
+I@20210430 15:55:32.249 tigergraph|127.0.0.1:56918|00000000522 (QBNode.java:224) Reconcile users only
+I@20210430 15:55:32.249 tigergraph|127.0.0.1:56918|00000000522 (CatalogManager.java:633) getCatalog: null
+I@20210430 15:55:32.249 tigergraph|127.0.0.1:56918|00000000522 (BaseHandler.java:167) Successful|POST|/gsql/file|text/plain; charset=UTF-8|1ms
+I@20210430 15:55:32.253 tigergraph|127.0.0.1:56918|00000000522 (BaseHandler.java:133) Received|POST|/gsql/abortclientsession|18
+I@20210430 15:55:32.253 tigergraph|127.0.0.1:56918|00000000522 (AbortClientSessionHandler.java:34) AbortSession added for session = 00000000522
+I@20210430 15:55:32.253 tigergraph|127.0.0.1:56918|00000000522 (SessionManager.java:234) Interrupt thread 'pool-4-thread-26' in session: 00000000522
+I@20210430 15:55:32.253 tigergraph|127.0.0.1:56918|00000000522 (BaseHandler.java:167) Successful|POST|/gsql/abortclientsession|text/plain; charset=UTF-8|0ms
+I@20210430 15:55:32.764 tigergraph|127.0.0.1:56948|00000000523 (BaseHandler.java:133) Received|POST|/gsql/login|28
+I@20210430 15:55:32.764 tigergraph|127.0.0.1:56948|00000000523 (LoginHandler.java:52) The gsql client is started on the server, and the working directory is /home/xilinx/alexp
+I@20210430 15:55:32.765 tigergraph|127.0.0.1:56948|00000000523 (LoginHandler.java:80) Successful|Login|tigergraph
+I@20210430 15:55:32.765 tigergraph|127.0.0.1:56948|00000000523 (BaseHandler.java:167) Successful|POST|/gsql/login|application/json; charset=UTF-8|1ms
+I@20210430 15:55:32.770 tigergraph|127.0.0.1:56948|00000000523 (BaseHandler.java:133) Received|POST|/gsql/file|9
+I@20210430 15:55:32.770 tigergraph|127.0.0.1:56948|00000000523 (FileHandler.java:42) show user
+I@20210430 15:55:32.771 tigergraph|127.0.0.1:56948|00000000523 (CatalogManager.java:633) getCatalog: null
+I@20210430 15:55:32.771 tigergraph|127.0.0.1:56948|00000000523 (QBNode.java:224) Reconcile users only
+I@20210430 15:55:32.771 tigergraph|127.0.0.1:56948|00000000523 (CatalogManager.java:633) getCatalog: null
+I@20210430 15:55:32.771 tigergraph|127.0.0.1:56948|00000000523 (BaseHandler.java:167) Successful|POST|/gsql/file|text/plain; charset=UTF-8|1ms
+I@20210430 15:55:32.774 tigergraph|127.0.0.1:56948|00000000523 (BaseHandler.java:133) Received|POST|/gsql/abortclientsession|18
+I@20210430 15:55:32.774 tigergraph|127.0.0.1:56948|00000000523 (AbortClientSessionHandler.java:34) AbortSession added for session = 00000000523
+I@20210430 15:55:32.775 tigergraph|127.0.0.1:56948|00000000523 (SessionManager.java:234) Interrupt thread 'pool-4-thread-27' in session: 00000000523
+I@20210430 15:55:32.775 tigergraph|127.0.0.1:56948|00000000523 (BaseHandler.java:167) Successful|POST|/gsql/abortclientsession|text/plain; charset=UTF-8|0ms
+I@20210430 15:55:33.276 tigergraph|127.0.0.1:56980|00000000524 (BaseHandler.java:133) Received|POST|/gsql/login|24
+I@20210430 15:55:33.276 tigergraph|127.0.0.1:56980|00000000524 (LoginHandler.java:52) The gsql client is started on the server, and the working directory is /home/xilinx/alexp
+I@20210430 15:55:33.276 tigergraph|127.0.0.1:56980|00000000524 (LoginHandler.java:80) Successful|Login|xilinx
+I@20210430 15:55:33.277 tigergraph|127.0.0.1:56980|00000000524 (BaseHandler.java:167) Successful|POST|/gsql/login|application/json; charset=UTF-8|0ms
+I@20210430 15:55:33.283 xilinx|127.0.0.1:56980|00000000524 (BaseHandler.java:133) Received|POST|/gsql/file|2994
+I@20210430 15:55:33.283 xilinx|127.0.0.1:56980|00000000524 (FileHandler.java:42) #
+# Copyright 2020-2021 Xilinx, Inc.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+# Moved to plugin installation script
+#DROP TUPLE XilCosinesimMatch
+#TYPEDEF TUPLE<Id VERTEX, score double> XilCosinesimMatch
+
+# Create Graph
+USE GRAPH xgraph_xilinx
+DROP QUERY *
+DROP GRAPH xgraph_xilinx
+CREATE GRAPH xgraph_xilinx()
+
+BEGIN
+CREATE SCHEMA_CHANGE JOB job_schema_change_local FOR GRAPH xgraph_xilinx {
+    ADD VERTEX immunizations(PRIMARY_ID Id String, PERFORMED_ON_DATE String, 
+                             PATIENT String, CODE UINT);
+    ADD VERTEX allergies (PRIMARY_ID Id String, START_DATE String, STOP String, 
+                          PATIENT String, CODE UINT);
+    ADD VERTEX conditions (PRIMARY_ID Id String, START_DATE String, STOP String, 
+                           PATIENT String, CODE UINT);
+    ADD VERTEX imaging_studies(PRIMARY_ID Id String, PERFORMED_ON_DATE String, 
+                               PATIENT String, BODYSITE_CODE UINT, MODALITY_CODE String);
+    ADD VERTEX procedures(PRIMARY_ID Id String, PERFORMED_ON_DATE String, 
+                          PATIENT String, CODE UINT);
+    ADD VERTEX careplans (PRIMARY_ID Id String, START_DATE String, STOP String, 
+                          PATIENT String, CODE UINT, REASONCODE UINT);
+    ADD VERTEX patients (PRIMARY_ID Id String, BIRTHDATE String, DEATHDATE String, 
+                         SSN String, FIRST_NAME String, LAST_NAME String, 
+                         MARITAL String, RACE String, ETHNICITY String, 
+                         GENDER String, COSINE_SIM_VECTOR LIST<INT>, COSINE_SIM_NORMAL DOUBLE);
+
+    ADD DIRECTED EDGE patient_HAD_immunization (from patients, to immunizations);
+    ADD DIRECTED EDGE patient_HAD_allergy (from patients, to allergies);
+    ADD DIRECTED EDGE patient_HAD_condition (from patients, to conditions);
+    ADD DIRECTED EDGE patient_HAD_imaging_study (from patients, to imaging_studies);
+    ADD DIRECTED EDGE patient_HAD_procedure (from patients, to procedures);
+    ADD DIRECTED EDGE patient_HAD_careplan (from patients, to careplans);
+}
+END
+
+RUN SCHEMA_CHANGE JOB job_schema_change_local
+DROP JOB job_schema_change_local
+I@20210430 15:55:33.284 xilinx|127.0.0.1:56980|00000000524 (CatalogManager.java:633) getCatalog: null
+I@20210430 15:55:33.284 xilinx|127.0.0.1:56980|00000000524 (QBNode.java:224) Reconcile users only
+I@20210430 15:55:33.284 xilinx|127.0.0.1:56980|00000000524 (CatalogManager.java:633) getCatalog: null
+I@20210430 15:55:33.284 xilinx|127.0.0.1:56980|00000000524 (CatalogManager.java:590) switch to graph 'xgraph_xilinx'.
+I@20210430 15:55:33.284 xilinx|127.0.0.1:56980|00000000524 (QBNode.java:224) Reconcile users only
+I@20210430 15:55:33.284 xilinx|127.0.0.1:56980|00000000524 (CatalogManager.java:633) getCatalog: xgraph_xilinx
+I@20210430 15:55:33.293 xilinx|127.0.0.1:56980|00000000524 (BaseClient.java:421) [GSQL]@1619816133293:get-current-service-status
+I@20210430 15:55:33.431 xilinx|127.0.0.1:56980|00000000524 (InformantClient.java:182) RESTPP is Online
+I@20210430 15:55:34.449 xilinx|127.0.0.1:56980|00000000524 (QBNode.java:217) Reconcile graph catalog, and reconcile users
+I@20210430 15:55:34.449 xilinx|127.0.0.1:56980|00000000524 (CatalogManager.java:633) getCatalog: xgraph_xilinx
+I@20210430 15:55:34.572 xilinx|127.0.0.1:56980|00000000524 (Catalog.java:12276) Doing schema change for global graph.
+I@20210430 15:55:34.572 xilinx|127.0.0.1:56980|00000000524 (Graph.java:332) WARNING, vertex type immunizations in graph xgraph_xilinx is not in global graph.
+I@20210430 15:55:34.572 xilinx|127.0.0.1:56980|00000000524 (Graph.java:332) WARNING, vertex type allergies in graph xgraph_xilinx is not in global graph.
+I@20210430 15:55:34.572 xilinx|127.0.0.1:56980|00000000524 (Graph.java:332) WARNING, vertex type conditions in graph xgraph_xilinx is not in global graph.
+I@20210430 15:55:34.572 xilinx|127.0.0.1:56980|00000000524 (Graph.java:332) WARNING, vertex type imaging_studies in graph xgraph_xilinx is not in global graph.
+I@20210430 15:55:34.572 xilinx|127.0.0.1:56980|00000000524 (Graph.java:332) WARNING, vertex type procedures in graph xgraph_xilinx is not in global graph.
+I@20210430 15:55:34.572 xilinx|127.0.0.1:56980|00000000524 (Graph.java:332) WARNING, vertex type careplans in graph xgraph_xilinx is not in global graph.
+I@20210430 15:55:34.572 xilinx|127.0.0.1:56980|00000000524 (Graph.java:332) WARNING, vertex type patients in graph xgraph_xilinx is not in global graph.
+I@20210430 15:55:34.572 xilinx|127.0.0.1:56980|00000000524 (Graph.java:345) WARNING, edge type patient_HAD_immunization in graph xgraph_xilinx is not in global graph.
+I@20210430 15:55:34.572 xilinx|127.0.0.1:56980|00000000524 (Graph.java:345) WARNING, edge type patient_HAD_allergy in graph xgraph_xilinx is not in global graph.
+I@20210430 15:55:34.572 xilinx|127.0.0.1:56980|00000000524 (Graph.java:345) WARNING, edge type patient_HAD_condition in graph xgraph_xilinx is not in global graph.
+I@20210430 15:55:34.573 xilinx|127.0.0.1:56980|00000000524 (Graph.java:345) WARNING, edge type patient_HAD_imaging_study in graph xgraph_xilinx is not in global graph.
+I@20210430 15:55:34.573 xilinx|127.0.0.1:56980|00000000524 (Graph.java:345) WARNING, edge type patient_HAD_procedure in graph xgraph_xilinx is not in global graph.
+I@20210430 15:55:34.573 xilinx|127.0.0.1:56980|00000000524 (Graph.java:345) WARNING, edge type patient_HAD_careplan in graph xgraph_xilinx is not in global graph.
+I@20210430 15:55:34.614 xilinx|127.0.0.1:56980|00000000524 (ExternalUtil.java:816) Run bash command: rm -f /home/tigergraph/tigergraph/tmp/gsql/codegen/tokenbank/GSQL_UDT.cpp
+
+I@20210430 15:55:34.617 xilinx|127.0.0.1:56980|00000000524 (ExternalUtil.java:804) The command "bash -c rm -f /home/tigergraph/tigergraph/tmp/gsql/codegen/tokenbank/GSQL_UDT.cpp" exited with code 0
+I@20210430 15:55:34.617 xilinx|127.0.0.1:56980|00000000524 (ExternalUtil.java:820) Finished
+find token udf source files, compile if any one is newer than .so
+skip token.so
+
+I@20210430 15:55:34.641 xilinx|127.0.0.1:56980|00000000524 (ExternalUtil.java:804) The command "/home/tigergraph/tigergraph/app/3.1.0/dev/gdk/gsql/.tmp/tempcompiletokenbank2151398358957413944.sh /home/tigergraph/tigergraph/tmp/gsql/codegen/output /home/tigergraph/tigergraph/tmp/gsql/codegen/tokenbank /home/tigergraph/tigergraph/app/3.1.0/dev/gdk/gsql/src/TokenLib /home/tigergraph/tigergraph/tmp/gsql/codegen/udt /home/tigergraph/tigergraph/app/3.1.0/dev/gdk" exited with code 0
+I@20210430 15:55:34.729 xilinx|127.0.0.1:56980|00000000524 (ControllerClient.java:388) send /home/tigergraph/tigergraph/tmp/gsql/codegen/output/TokenBank.so to /home/tigergraph/tigergraph/app/3.1.0/bin/TokenBank.so
+I@20210430 15:55:34.729 xilinx|127.0.0.1:56980|00000000524 (BaseClient.java:421) [GSQL]@1619816134729:transfer-file
+I@20210430 15:55:34.937 xilinx|127.0.0.1:56980|00000000524 (BaseClient.java:421) [GSQL]@1619816134937:get-current-service-status
+I@20210430 15:55:35.188 xilinx|127.0.0.1:56980|00000000524 (InformantClient.java:182) GPE GSE RESTPP are Online
+I@20210430 15:55:41.734 xilinx|127.0.0.1:56980|00000000524 (BaseClient.java:421) [GSQL]@1619816141734:get-current-service-status
+I@20210430 15:55:41.955 xilinx|127.0.0.1:56980|00000000524 (InformantClient.java:182) RESTPP is Online
+I@20210430 15:55:42.391 xilinx|127.0.0.1:56980|00000000524 (BaseClient.java:421) [GSQL]@1619816142391:get-current-service-status
+I@20210430 15:55:42.456 xilinx|127.0.0.1:56980|00000000524 (InformantClient.java:182) RESTPP is Online
+I@20210430 15:55:43.471 xilinx|127.0.0.1:56980|00000000524 (QBNode.java:217) Reconcile graph catalog, and reconcile users
+I@20210430 15:55:43.471 xilinx|127.0.0.1:56980|00000000524 (CatalogManager.java:633) getCatalog: null
+I@20210430 15:55:43.575 xilinx|127.0.0.1:56980|00000000524 (BaseClient.java:421) [GSQL]@1619816143575:get-current-service-status
+I@20210430 15:55:43.709 xilinx|127.0.0.1:56980|00000000524 (InformantClient.java:182) RESTPP is Online
+I@20210430 15:55:44.522 xilinx|127.0.0.1:56980|00000000524 (CatalogManager.java:590) switch to graph 'xgraph_xilinx'.
+I@20210430 15:55:44.522 xilinx|127.0.0.1:56980|00000000524 (QBNode.java:224) Reconcile users only
+I@20210430 15:55:44.522 xilinx|127.0.0.1:56980|00000000524 (CatalogManager.java:633) getCatalog: xgraph_xilinx
+E@20210430 15:55:44.522 xilinx|127.0.0.1:56980|00000000524 (QueryBlockHandler.java:200) Unknown QB com.tigergraph.schema.ast.ddl.other.t@689097fb
+I@20210430 15:55:44.522 xilinx|127.0.0.1:56980|00000000524 (QBNode.java:224) Reconcile users only
+I@20210430 15:55:44.522 xilinx|127.0.0.1:56980|00000000524 (CatalogManager.java:633) getCatalog: xgraph_xilinx
+I@20210430 15:55:44.525 xilinx|127.0.0.1:56980|00000000524 (QBNode.java:224) Reconcile users only
+I@20210430 15:55:44.525 xilinx|127.0.0.1:56980|00000000524 (CatalogManager.java:633) getCatalog: xgraph_xilinx
+E@20210430 15:55:44.525 xilinx|127.0.0.1:56980|00000000524 (QueryBlockHandler.java:200) Unknown QB com.tigergraph.schema.ast.ddl.other.u@2b12398e
+I@20210430 15:55:44.525 xilinx|127.0.0.1:56980|00000000524 (QBNode.java:217) Reconcile graph catalog, and reconcile users
+I@20210430 15:55:44.525 xilinx|127.0.0.1:56980|00000000524 (CatalogManager.java:633) getCatalog: xgraph_xilinx
+I@20210430 15:55:44.649 xilinx|127.0.0.1:56980|00000000524 (BaseClient.java:421) [GSQL]@1619816144649:get-current-service-status
+I@20210430 15:55:44.712 xilinx|127.0.0.1:56980|00000000524 (InformantClient.java:182) RESTPP is Online
+I@20210430 15:55:44.755 xilinx|127.0.0.1:56980|00000000524 (Catalog.java:11279) Start schema update. Job name: job_schema_change_local
+I@20210430 15:55:44.915 xilinx|127.0.0.1:56980|00000000524 (ExternalUtil.java:816) Run bash command: rm -f /home/tigergraph/tigergraph/tmp/gsql/codegen/tokenbank/GSQL_UDT.cpp
+
+I@20210430 15:55:44.917 xilinx|127.0.0.1:56980|00000000524 (ExternalUtil.java:804) The command "bash -c rm -f /home/tigergraph/tigergraph/tmp/gsql/codegen/tokenbank/GSQL_UDT.cpp" exited with code 0
+I@20210430 15:55:44.917 xilinx|127.0.0.1:56980|00000000524 (ExternalUtil.java:820) Finished
+find token udf source files, compile if any one is newer than .so
+skip token.so
+
+I@20210430 15:55:44.942 xilinx|127.0.0.1:56980|00000000524 (ExternalUtil.java:804) The command "/home/tigergraph/tigergraph/app/3.1.0/dev/gdk/gsql/.tmp/tempcompiletokenbank2025256114998694116.sh /home/tigergraph/tigergraph/tmp/gsql/codegen/output /home/tigergraph/tigergraph/tmp/gsql/codegen/tokenbank /home/tigergraph/tigergraph/app/3.1.0/dev/gdk/gsql/src/TokenLib /home/tigergraph/tigergraph/tmp/gsql/codegen/udt /home/tigergraph/tigergraph/app/3.1.0/dev/gdk" exited with code 0
+I@20210430 15:55:44.945 xilinx|127.0.0.1:56980|00000000524 (ControllerClient.java:388) send /home/tigergraph/tigergraph/tmp/gsql/codegen/output/TokenBank.so to /home/tigergraph/tigergraph/app/3.1.0/bin/TokenBank.so
+I@20210430 15:55:44.945 xilinx|127.0.0.1:56980|00000000524 (BaseClient.java:421) [GSQL]@1619816144945:transfer-file
+I@20210430 15:55:44.949 xilinx|127.0.0.1:56980|00000000524 (BaseClient.java:421) [GSQL]@1619816144949:get-current-service-status
+I@20210430 15:55:45.200 xilinx|127.0.0.1:56980|00000000524 (InformantClient.java:182) GPE GSE RESTPP are Online
+I@20210430 15:55:51.742 xilinx|127.0.0.1:56980|00000000524 (Catalog.java:11535) Schema update job_schema_change_local succeed!
+I@20210430 15:55:51.743 xilinx|127.0.0.1:56980|00000000524 (QBNode.java:224) Reconcile users only
+I@20210430 15:55:51.743 xilinx|127.0.0.1:56980|00000000524 (CatalogManager.java:633) getCatalog: xgraph_xilinx
+I@20210430 15:55:51.746 xilinx|127.0.0.1:56980|00000000524 (BaseHandler.java:167) Successful|POST|/gsql/file|text/plain; charset=UTF-8|18463ms
+I@20210430 15:55:51.749 xilinx|127.0.0.1:56980|00000000524 (BaseHandler.java:133) Received|POST|/gsql/abortclientsession|18
+I@20210430 15:55:51.750 xilinx|127.0.0.1:56980|00000000524 (AbortClientSessionHandler.java:34) AbortSession added for session = 00000000524
+I@20210430 15:55:51.750 xilinx|127.0.0.1:56980|00000000524 (SessionManager.java:234) Interrupt thread 'pool-4-thread-27' in session: 00000000524
+I@20210430 15:55:51.750 xilinx|127.0.0.1:56980|00000000524 (BaseHandler.java:167) Successful|POST|/gsql/abortclientsession|text/plain; charset=UTF-8|0ms
+I@20210430 15:55:52.281 tigergraph|127.0.0.1:58016|00000000525 (BaseHandler.java:133) Received|POST|/gsql/login|24
+I@20210430 15:55:52.282 tigergraph|127.0.0.1:58016|00000000525 (LoginHandler.java:52) The gsql client is started on the server, and the working directory is /home/xilinx/alexp
+I@20210430 15:55:52.282 tigergraph|127.0.0.1:58016|00000000525 (LoginHandler.java:80) Successful|Login|xilinx
+I@20210430 15:55:52.282 tigergraph|127.0.0.1:58016|00000000525 (BaseHandler.java:167) Successful|POST|/gsql/login|application/json; charset=UTF-8|1ms
+I@20210430 15:55:52.289 xilinx|127.0.0.1:58016|00000000525 (BaseHandler.java:133) Received|POST|/gsql/file|4891
+I@20210430 15:55:52.290 xilinx|127.0.0.1:58016|00000000525 (FileHandler.java:42) SET sys.data_root="/opt/xilinx/apps/graphanalytics/integration/Tigergraph-3.x/1.0/examples/synthea/1000_patients/csv" #
+# Copyright 2020-2021 Xilinx, Inc.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+USE GRAPH xgraph_xilinx
+
+# Don't forget to do 'SET sys.data_root="..."' from the command line!
+
+BEGIN
+    CREATE LOADING JOB load_xgraph FOR GRAPH xgraph_xilinx 
+    {
+        DEFINE FILENAME patients_infile = "$sys.data_root/patients.csv";
+        DEFINE FILENAME immunizations_infile = "$sys.data_root/immunizations.csv";
+        DEFINE FILENAME allergies_infile = "$sys.data_root/allergies.csv";
+         DEFINE FILENAME conditions_infile = "$sys.data_root/conditions.csv";
+        DEFINE FILENAME imaging_studies_infile = "$sys.data_root/imaging_studies.csv";
+        DEFINE FILENAME procedures_infile = "$sys.data_root/procedures.csv";
+        DEFINE FILENAME careplans_infile = "$sys.data_root/careplans.csv";
+
+        LOAD patients_infile
+            #the last column is a placholder for cached vector data
+            TO VERTEX patients VALUES($"Id", $"BIRTHDATE", $"DEATHDATE", $"SSN",
+                $"FIRST", $"LAST", $"MARITAL", $"RACE", $"ETHNICITY", $"GENDER", _, _) 
+            USING header="true", separator=",";
+
+        LOAD immunizations_infile 
+            TO VERTEX immunizations VALUES(gsql_concat($"DATE", 
+                $"PATIENT", $"CODE"), $"DATE", $"PATIENT",$"CODE"),
+            TO EDGE patient_HAD_immunization VALUES($"PATIENT" patients, 
+                gsql_concat($"DATE", $"PATIENT", $"CODE") immunizations) 
+            USING header="true", separator=",";
+
+        LOAD allergies_infile
+            TO VERTEX allergies VALUES (gsql_concat($"START", $"PATIENT", $"CODE"), 
+                $"START",$"STOP",$"PATIENT",$"CODE"),
+            TO EDGE patient_HAD_allergy VALUES($"PATIENT" patients, 
+                gsql_concat($"START", $"PATIENT", $"CODE") allergies) 
+            USING header="true", separator=",";
+
+        LOAD conditions_infile
+            TO VERTEX conditions VALUES (gsql_concat($"START", $"PATIENT", $"CODE"), 
+                $"START", $"STOP", $"PATIENT", $"CODE"),
+            TO EDGE patient_HAD_condition VALUES($"PATIENT" patients, 
+                gsql_concat($"START", $"PATIENT", $"CODE") conditions) 
+            USING header="true", separator=",";
+
+        LOAD imaging_studies_infile
+            TO VERTEX imaging_studies VALUES ($"Id", $"DATE", $"PATIENT", 
+                                          $"BODYSITE_CODE", $"MODALITY_CODE"),
+            TO EDGE patient_HAD_imaging_study VALUES($"PATIENT" patients, $"Id" imaging_studies) 
+            USING header="true", separator=",";
+
+        LOAD procedures_infile
+            TO VERTEX procedures VALUES (gsql_concat($"DATE", $"PATIENT", $"CODE"), 
+                $"DATE",$"PATIENT",$"CODE"),
+            TO EDGE patient_HAD_procedure VALUES($"PATIENT" patients, 
+                gsql_concat($"DATE", $"PATIENT", $"CODE") procedures)
+            USING header="true", separator=",";
+
+        LOAD careplans_infile
+            TO vertex careplans VALUES ($"Id", $"START", $"STOP",$"PATIENT", $"CODE", 
+                $"REASONCODE"),
+            TO EDGE patient_HAD_careplan VALUES($"PATIENT" patients, $"Id" careplans) 
+            USING header="true", separator=",";
+    }
+END
+I@20210430 15:55:52.291 xilinx|127.0.0.1:58016|00000000525 (CatalogManager.java:633) getCatalog: null
+I@20210430 15:55:52.291 xilinx|127.0.0.1:58016|00000000525 (QBNode.java:224) Reconcile users only
+I@20210430 15:55:52.291 xilinx|127.0.0.1:58016|00000000525 (CatalogManager.java:633) getCatalog: null
+I@20210430 15:55:52.291 xilinx|127.0.0.1:58016|00000000525 (QBNode.java:224) Reconcile users only
+I@20210430 15:55:52.291 xilinx|127.0.0.1:58016|00000000525 (CatalogManager.java:633) getCatalog: null
+I@20210430 15:55:52.291 xilinx|127.0.0.1:58016|00000000525 (CatalogManager.java:590) switch to graph 'xgraph_xilinx'.
+I@20210430 15:55:52.291 xilinx|127.0.0.1:58016|00000000525 (QBNode.java:224) Reconcile users only
+I@20210430 15:55:52.291 xilinx|127.0.0.1:58016|00000000525 (CatalogManager.java:633) getCatalog: xgraph_xilinx
+E@20210430 15:55:52.291 xilinx|127.0.0.1:58016|00000000525 (QueryBlockHandler.java:200) Unknown QB com.tigergraph.schema.ast.ddl.other.t@78fa4bfe
+I@20210430 15:55:52.291 xilinx|127.0.0.1:58016|00000000525 (QBNode.java:224) Reconcile users only
+I@20210430 15:55:52.291 xilinx|127.0.0.1:58016|00000000525 (CatalogManager.java:633) getCatalog: xgraph_xilinx
+I@20210430 15:55:52.292 xilinx|127.0.0.1:58016|00000000525 (CatalogManager.java:633) getCatalog: xgraph_xilinx
+I@20210430 15:55:52.292 xilinx|127.0.0.1:58016|00000000525 (CatalogManager.java:633) getCatalog: xgraph_xilinx
+I@20210430 15:55:52.292 xilinx|127.0.0.1:58016|00000000525 (CatalogManager.java:633) getCatalog: xgraph_xilinx
+I@20210430 15:55:52.292 xilinx|127.0.0.1:58016|00000000525 (CatalogManager.java:633) getCatalog: xgraph_xilinx
+I@20210430 15:55:52.292 xilinx|127.0.0.1:58016|00000000525 (CatalogManager.java:633) getCatalog: xgraph_xilinx
+I@20210430 15:55:52.292 xilinx|127.0.0.1:58016|00000000525 (CatalogManager.java:633) getCatalog: xgraph_xilinx
+I@20210430 15:55:52.292 xilinx|127.0.0.1:58016|00000000525 (CatalogManager.java:633) getCatalog: xgraph_xilinx
+I@20210430 15:55:52.323 xilinx|127.0.0.1:58016|00000000525 (ExternalUtil.java:816) Run bash command: rm -f /home/tigergraph/tigergraph/tmp/gsql/codegen/tokenbank/GSQL_UDT.cpp
+
+I@20210430 15:55:52.326 xilinx|127.0.0.1:58016|00000000525 (ExternalUtil.java:804) The command "bash -c rm -f /home/tigergraph/tigergraph/tmp/gsql/codegen/tokenbank/GSQL_UDT.cpp" exited with code 0
+I@20210430 15:55:52.326 xilinx|127.0.0.1:58016|00000000525 (ExternalUtil.java:820) Finished
+find token udf source files, compile if any one is newer than .so
+skip token.so
+
+I@20210430 15:55:52.349 xilinx|127.0.0.1:58016|00000000525 (ExternalUtil.java:804) The command "/home/tigergraph/tigergraph/app/3.1.0/dev/gdk/gsql/.tmp/tempcompiletokenbank5751982274178703287.sh /home/tigergraph/tigergraph/tmp/gsql/codegen/output /home/tigergraph/tigergraph/tmp/gsql/codegen/tokenbank /home/tigergraph/tigergraph/app/3.1.0/dev/gdk/gsql/src/TokenLib /home/tigergraph/tigergraph/tmp/gsql/codegen/udt /home/tigergraph/tigergraph/app/3.1.0/dev/gdk" exited with code 0
+I@20210430 15:55:52.349 xilinx|127.0.0.1:58016|00000000525 (ControllerClient.java:388) send /home/tigergraph/tigergraph/tmp/gsql/codegen/output/TokenBank.so to /home/tigergraph/tigergraph/app/3.1.0/bin/TokenBank.so
+I@20210430 15:55:52.349 xilinx|127.0.0.1:58016|00000000525 (BaseClient.java:421) [GSQL]@1619816152349:transfer-file
+I@20210430 15:55:52.470 xilinx|127.0.0.1:58016|00000000525 (BaseClient.java:421) [GSQL]@1619816152470:get-current-service-status
+I@20210430 15:55:52.605 xilinx|127.0.0.1:58016|00000000525 (InformantClient.java:182) RESTPP is Online
+I@20210430 15:55:53.419 xilinx|127.0.0.1:58016|00000000525 (BaseLoadingJob.java:166) Restpp refreshed: true
+I@20210430 15:55:53.419 xilinx|127.0.0.1:58016|00000000525 (QBNode.java:224) Reconcile users only
+I@20210430 15:55:53.419 xilinx|127.0.0.1:58016|00000000525 (CatalogManager.java:633) getCatalog: xgraph_xilinx
+E@20210430 15:55:53.419 xilinx|127.0.0.1:58016|00000000525 (QueryBlockHandler.java:200) Unknown QB com.tigergraph.schema.ast.ddl.other.u@2cfc70b1
+I@20210430 15:55:53.419 xilinx|127.0.0.1:58016|00000000525 (BaseHandler.java:167) Successful|POST|/gsql/file|text/plain; charset=UTF-8|1130ms
+I@20210430 15:55:53.422 xilinx|127.0.0.1:58016|00000000525 (BaseHandler.java:133) Received|POST|/gsql/abortclientsession|18
+I@20210430 15:55:53.423 xilinx|127.0.0.1:58016|00000000525 (AbortClientSessionHandler.java:34) AbortSession added for session = 00000000525
+I@20210430 15:55:53.423 xilinx|127.0.0.1:58016|00000000525 (SessionManager.java:234) Interrupt thread 'pool-4-thread-26' in session: 00000000525
+I@20210430 15:55:53.423 xilinx|127.0.0.1:58016|00000000525 (BaseHandler.java:167) Successful|POST|/gsql/abortclientsession|text/plain; charset=UTF-8|1ms
+I@20210430 15:55:54.002 xilinx|127.0.0.1:58118|00000000526 (BaseHandler.java:133) Received|POST|/gsql/login|24
+I@20210430 15:55:54.003 xilinx|127.0.0.1:58118|00000000526 (LoginHandler.java:52) The gsql client is started on the server, and the working directory is /home/xilinx/alexp
+I@20210430 15:55:54.003 xilinx|127.0.0.1:58118|00000000526 (CatalogManager.java:590) switch to graph 'xgraph_xilinx'.
+I@20210430 15:55:54.003 xilinx|127.0.0.1:58118|00000000526 (LoginHandler.java:80) Successful|Login|xilinx
+I@20210430 15:55:54.003 xilinx|127.0.0.1:58118|00000000526 (BaseHandler.java:167) Successful|POST|/gsql/login|application/json; charset=UTF-8|1ms
+I@20210430 15:55:54.009 xilinx|127.0.0.1:58118|00000000526 (BaseHandler.java:133) Received|POST|/gsql/file|201
+I@20210430 15:55:54.009 xilinx|127.0.0.1:58118|00000000526 (FileHandler.java:42) SET QUERY_TIMEOUT=3600000 SET sys.data_root="/opt/xilinx/apps/graphanalytics/integration/Tigergraph-3.x/1.0/examples/synthea/1000_patients/csv" RUN LOADING JOB load_xgraph
+I@20210430 15:55:54.009 xilinx|127.0.0.1:58118|00000000526 (CatalogManager.java:633) getCatalog: xgraph_xilinx
+I@20210430 15:55:54.009 xilinx|127.0.0.1:58118|00000000526 (QBNode.java:224) Reconcile users only
+I@20210430 15:55:54.009 xilinx|127.0.0.1:58118|00000000526 (CatalogManager.java:633) getCatalog: xgraph_xilinx
+I@20210430 15:55:54.009 xilinx|127.0.0.1:58118|00000000526 (QBNode.java:224) Reconcile users only
+I@20210430 15:55:54.009 xilinx|127.0.0.1:58118|00000000526 (CatalogManager.java:633) getCatalog: xgraph_xilinx
+I@20210430 15:55:54.009 xilinx|127.0.0.1:58118|00000000526 (QBNode.java:224) Reconcile users only
+I@20210430 15:55:54.009 xilinx|127.0.0.1:58118|00000000526 (CatalogManager.java:633) getCatalog: xgraph_xilinx
+I@20210430 15:55:54.009 xilinx|127.0.0.1:58118|00000000526 (BaseLoadingJob.java:295) RunLoadingJobs
+I@20210430 15:55:54.009 xilinx|127.0.0.1:58118|00000000526 (BaseClient.java:421) [GSQL]@1619816154009:get-current-service-status
+I@20210430 15:55:54.109 xilinx|127.0.0.1:58118|00000000526 (InformantClient.java:182) RESTPP is Online
+I@20210430 15:55:54.109 xilinx|127.0.0.1:58118|00000000526 (BaseClient.java:421) [GSQL]@1619816154109:get-current-service-status
+I@20210430 15:55:54.360 xilinx|127.0.0.1:58118|00000000526 (InformantClient.java:182) RESTPP is Online
+I@20210430 15:55:54.366 xilinx|127.0.0.1:58118|00000000526 (JobSemanticCheck.java:726) Start CheckLoadingJob
+I@20210430 15:55:54.370 xilinx|127.0.0.1:58118|00000000526 (BaseLoadingJob.java:423) Start Loading job load_xgraph
+I@20210430 15:55:54.370 xilinx|127.0.0.1:58118|00000000526 (FileLoadingJob.java:101) Start file loading ...
+I@20210430 15:55:54.370 xilinx|127.0.0.1:58118|00000000526 (LoadingJobRunTimeConfig.java:108) The created file job ID: xgraph_xilinx.load_xgraph.file.m1.1619816154370
+I@20210430 15:55:54.370 xilinx|127.0.0.1:58118|00000000526 (FileLoadingJob.java:33) Sending file loading job
+I@20210430 15:55:54.370 xilinx|127.0.0.1:58118|00000000526 (BaseLoadingJob.java:245) start url = http://127.0.0.1:9000/restpploader/xgraph_xilinx
+I@20210430 15:55:54.374 xilinx|127.0.0.1:58118|00000000526 (BaseLoadingJob.java:248) ret = {"version":{"edition":"enterprise","api":"v2","schema":3},"error":false,"message":"The loader job is sucessfully submitted, please use the job_id to check loading status.","results":[{"job_id":"xgraph_xilinx.load_xgraph.file.m1.1619816154370","submit_time":"Fri Apr 30 15:55:54 2021"}],"code":"REST-0000"}
+I@20210430 15:56:04.386 xilinx|127.0.0.1:58118|00000000526 (BaseHandler.java:167) Successful|POST|/gsql/file|text/plain; charset=UTF-8|10378ms
+I@20210430 15:56:04.431 xilinx|127.0.0.1:58118|00000000526 (BaseHandler.java:133) Received|POST|/gsql/abortclientsession|18
+I@20210430 15:56:04.431 xilinx|127.0.0.1:58118|00000000526 (AbortClientSessionHandler.java:34) AbortSession added for session = 00000000526
+I@20210430 15:56:04.431 xilinx|127.0.0.1:58118|00000000526 (SessionManager.java:234) Interrupt thread 'pool-4-thread-26' in session: 00000000526
+I@20210430 15:56:04.432 xilinx|127.0.0.1:58118|00000000526 (BaseHandler.java:167) Successful|POST|/gsql/abortclientsession|text/plain; charset=UTF-8|1ms
+I@20210430 15:56:05.015 xilinx|127.0.0.1:58656|00000000527 (BaseHandler.java:133) Received|POST|/gsql/login|24
+I@20210430 15:56:05.016 xilinx|127.0.0.1:58656|00000000527 (LoginHandler.java:52) The gsql client is started on the server, and the working directory is /home/xilinx/alexp
+I@20210430 15:56:05.016 xilinx|127.0.0.1:58656|00000000527 (CatalogManager.java:590) switch to graph 'xgraph_xilinx'.
+I@20210430 15:56:05.016 xilinx|127.0.0.1:58656|00000000527 (LoginHandler.java:80) Successful|Login|xilinx
+I@20210430 15:56:05.016 xilinx|127.0.0.1:58656|00000000527 (BaseHandler.java:167) Successful|POST|/gsql/login|application/json; charset=UTF-8|1ms
+I@20210430 15:56:05.021 xilinx|127.0.0.1:58656|00000000527 (BaseHandler.java:133) Received|POST|/gsql/file|20
+I@20210430 15:56:05.021 xilinx|127.0.0.1:58656|00000000527 (FileHandler.java:42) DROP JOB load_xgraph
+I@20210430 15:56:05.022 xilinx|127.0.0.1:58656|00000000527 (CatalogManager.java:633) getCatalog: xgraph_xilinx
+I@20210430 15:56:05.022 xilinx|127.0.0.1:58656|00000000527 (QBNode.java:224) Reconcile users only
+I@20210430 15:56:05.022 xilinx|127.0.0.1:58656|00000000527 (CatalogManager.java:633) getCatalog: xgraph_xilinx
+I@20210430 15:56:05.025 xilinx|127.0.0.1:58656|00000000527 (BaseHandler.java:167) Successful|POST|/gsql/file|text/plain; charset=UTF-8|4ms
+I@20210430 15:56:05.028 xilinx|127.0.0.1:58656|00000000527 (BaseHandler.java:133) Received|POST|/gsql/abortclientsession|18
+I@20210430 15:56:05.028 xilinx|127.0.0.1:58656|00000000527 (AbortClientSessionHandler.java:34) AbortSession added for session = 00000000527
+I@20210430 15:56:05.028 xilinx|127.0.0.1:58656|00000000527 (SessionManager.java:234) Interrupt thread 'pool-4-thread-26' in session: 00000000527
+I@20210430 15:56:05.028 xilinx|127.0.0.1:58656|00000000527 (BaseHandler.java:167) Successful|POST|/gsql/abortclientsession|text/plain; charset=UTF-8|0ms
+I@20210430 15:56:05.543 xilinx|127.0.0.1:58682|00000000528 (BaseHandler.java:133) Received|POST|/gsql/login|28
+I@20210430 15:56:05.543 xilinx|127.0.0.1:58682|00000000528 (LoginHandler.java:52) The gsql client is started on the server, and the working directory is /home/xilinx/alexp
+I@20210430 15:56:05.544 xilinx|127.0.0.1:58682|00000000528 (LoginHandler.java:80) Successful|Login|tigergraph
+I@20210430 15:56:05.544 xilinx|127.0.0.1:58682|00000000528 (BaseHandler.java:167) Successful|POST|/gsql/login|application/json; charset=UTF-8|1ms
+I@20210430 15:56:05.549 tigergraph|127.0.0.1:58682|00000000528 (BaseHandler.java:133) Received|POST|/gsql/file|9
+I@20210430 15:56:05.549 tigergraph|127.0.0.1:58682|00000000528 (FileHandler.java:42) show user
+I@20210430 15:56:05.549 tigergraph|127.0.0.1:58682|00000000528 (CatalogManager.java:633) getCatalog: null
+I@20210430 15:56:05.549 tigergraph|127.0.0.1:58682|00000000528 (QBNode.java:224) Reconcile users only
+I@20210430 15:56:05.549 tigergraph|127.0.0.1:58682|00000000528 (CatalogManager.java:633) getCatalog: null
+I@20210430 15:56:05.550 tigergraph|127.0.0.1:58682|00000000528 (BaseHandler.java:167) Successful|POST|/gsql/file|text/plain; charset=UTF-8|1ms
+I@20210430 15:56:05.552 tigergraph|127.0.0.1:58682|00000000528 (BaseHandler.java:133) Received|POST|/gsql/abortclientsession|18
+I@20210430 15:56:05.553 tigergraph|127.0.0.1:58682|00000000528 (AbortClientSessionHandler.java:34) AbortSession added for session = 00000000528
+I@20210430 15:56:05.553 tigergraph|127.0.0.1:58682|00000000528 (SessionManager.java:234) Interrupt thread 'pool-4-thread-26' in session: 00000000528
+I@20210430 15:56:05.553 tigergraph|127.0.0.1:58682|00000000528 (BaseHandler.java:167) Successful|POST|/gsql/abortclientsession|text/plain; charset=UTF-8|0ms
+I@20210430 15:56:15.181 tigergraph|127.0.0.1:59260|00000000529 (BaseHandler.java:133) Received|POST|/gsql/login|24
+I@20210430 15:56:15.181 tigergraph|127.0.0.1:59260|00000000529 (LoginHandler.java:52) The gsql client is started on the server, and the working directory is /home/xilinx/alexp
+I@20210430 15:56:15.181 tigergraph|127.0.0.1:59260|00000000529 (LoginHandler.java:80) Successful|Login|xilinx
+I@20210430 15:56:15.181 tigergraph|127.0.0.1:59260|00000000529 (BaseHandler.java:167) Successful|POST|/gsql/login|application/json; charset=UTF-8|1ms
+I@20210430 15:56:15.191 xilinx|127.0.0.1:59260|00000000529 (BaseHandler.java:133) Received|POST|/gsql/file|7518
+I@20210430 15:56:15.192 xilinx|127.0.0.1:59260|00000000529 (FileHandler.java:42) #
+# Copyright 2020-2021 Xilinx, Inc.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+set query_timeout = 600000
+use graph xgraph_xilinx
+drop query all
+
+create query patient_age(vertex<patients> p) for graph xgraph_xilinx returns (int){ 
+    float age;
+    datetime deathdate;
+    datetime birthdate;
+
+    deathdate = to_datetime(p.DEATHDATE);
+    birthdate = to_datetime(p.BIRTHDATE);
+
+    if (p.DEATHDATE == "") OR (p.DEATHDATE == "2999-12-31") then
+        age = datetime_diff( now(), birthdate) / (60 * 60 * 24 * 365);
+    else
+        age = datetime_diff( deathdate, birthdate) / (60 * 60 * 24 * 365);
+    end;
+
+    if (age < 1.0 ) then
+        age = 1.0;
+    else if (age > 100.0 ) then
+        age = 100.0;
+    end;
+
+    return float_to_int(age);
+}
+
+create query patient_gender(vertex<patients> p) for graph xgraph_xilinx returns (int){ 
+	uint gender;
+
+	if (p.GENDER == "M") then 
+		gender = 1;
+	else
+		gender = 2;
+	end;
+
+	return gender;
+}
+
+create query patient_race(vertex<patients> p) for graph xgraph_xilinx returns (int){ 
+	uint race;
+	string raceString;
+
+	race = 1;
+	raceString = p.RACE;
+
+	case
+	    when raceString == "black" then race = 2;
+	    when raceString == "white" then race = 3;
+	    when raceString == "hispanic" OR raceString == "latino" then race = 4;
+	    when raceString == "asian" then race = 5;
+	    when raceString == "indian" then race = 6;
+	else race = 1; 
+	end;
+
+	return race;
+}
+
+create query patient_ethnicity(vertex<patients> p) for graph xgraph_xilinx returns (int){ 
+	uint ethnicity;
+	STRING eString;
+
+	ethnicity = 1;
+	eString = p.ETHNICITY;
+
+	case
+		when eString == "nonhispanic" then ethnicity = 2;
+	when eString == "hispanic" then ethnicity = 3;
+	else ethnicity = 1; 
+	end;
+
+	return ethnicity;
+}
+
+
+create query patient_vector(vertex<patients> targetPatient) for graph xgraph_xilinx returns (ListAccum<int>) {
+
+# For each patient population, property vector has following
+# Unused fields are filled with zeros
+
+#    Range  : Count       : Information
+#    000-016: 17 * 1 = 17 : patient pesonal info (AGE, GENDER, RACE, ETHNICITY, <UNUSDED7-19>)
+#    017-036: 20 * 1 = 20 : immunizations (CODE)
+#    037-056: 20 * 1 = 20 : allergies (CODE)
+#    057-076: 50 * 1 = 50 : conditions (CODE)
+#    077-136: 20 * 1 = 20 : imaging_studies (BODYSITE)
+#    137-156: 50 * 1 = 50:  procedures (CODE)
+#    157-196: 20 * 1 = 20 : careplans (CODE)
+
+
+	// Locals
+	uint patient_vid;
+	uint FIELD_LIMIT;
+	int temp;
+	uint size;
+	double norm;
+	int defaultValue;
+
+	// Global accumulators
+	ListAccum<int> @@patientVector;
+	ListAccum<uint> @@tempVec;
+
+	// Initialize
+	patientList = {targetPatient};
+	temp = 0;
+	defaultValue = 1;
+
+
+	// Field 0-3: age, gender, race
+	temp = patient_age(targetPatient);
+	@@patientVector += temp;
+	temp = patient_gender(targetPatient);
+	@@patientVector += temp;
+	temp = patient_race(targetPatient);
+	@@patientVector += temp;
+	temp = patient_ethnicity(targetPatient);
+	@@patientVector += temp;
+
+	// Field 4-16: Empty for now, add additional fields in future
+	foreach i in RANGE[7,19] do
+		temp = defaultValue;
+	@@patientVector += temp;
+	end;
+
+# Immunization
+	@@tempVec.clear();
+	property_list (ANY) = select a FROM patientList-(patient_HAD_immunization:e)-immunizations:a 
+		ACCUM @@tempVec += a.CODE ;
+#  foreach i in RANGE[0, @@tempVec.size()-1] do
+#	@@patientVector += @@tempVec.get(i);
+#  end;
+#  foreach i in RANGE[@@tempVec.size(), 19] do
+#	@@patientVector += 0;
+#  end;
+	@@patientVector += udf_get_similarity_vec(0, 20, @@tempVec);
+
+# allergies
+	@@tempVec.clear();
+	property_list = select a FROM patientList-(patient_HAD_allergy:e)-allergies:a 
+		ACCUM @@tempVec += a.CODE ;
+#  foreach i in RANGE[0, @@tempVec.size()-1] do
+#	@@patientVector += @@tempVec.get(i);
+#  end;
+#  foreach i in RANGE[@@tempVec.size(), 19] do
+#	@@patientVector += 0;
+#  end;
+	@@patientVector += udf_get_similarity_vec(1, 20, @@tempVec);
+
+# conditions
+	@@tempVec.clear();
+	property_list = select a FROM patientList-(patient_HAD_condition:e)-conditions:a 
+		ACCUM @@tempVec += a.CODE ;
+#  foreach i in RANGE[0, @@tempVec.size()-1] do
+#	@@patientVector += @@tempVec.get(i);
+#  end;
+#  foreach i in RANGE[@@tempVec.size(), 50] do
+#	@@patientVector += 0;
+#  end;
+	@@patientVector += udf_get_similarity_vec(2, 50, @@tempVec);
+
+# imaging_studies
+	@@tempVec.clear();
+	property_list = select a FROM patientList-(patient_HAD_imaging_study:e)-imaging_studies:a 
+		ACCUM @@tempVec += a.BODYSITE_CODE;
+	@@patientVector += udf_get_similarity_vec(3, 20, @@tempVec);
+
+# pocedures
+	@@tempVec.clear();
+	property_list = select a FROM patientList-(patient_HAD_procedure:e)-procedures:a 
+		ACCUM @@tempVec += a.CODE;
+	@@patientVector += udf_get_similarity_vec(4, 50, @@tempVec);
+
+# careplans
+	@@tempVec.clear();
+	property_list = select a FROM patientList-(patient_HAD_careplan:e)-careplans:a 
+		ACCUM @@tempVec += a.CODE;
+	@@patientVector += udf_get_similarity_vec(5, 20, @@tempVec);
+
+	return @@patientVector;
+}
+
+
+CREATE QUERY cosinesim_clear_embeddings() FOR GRAPH xgraph_xilinx {
+    ListAccum<INT> @@emptyVec;
+
+    population = {patients.*};
+    UPDATE p FROM population:p
+        SET p.COSINE_SIM_VECTOR = @@emptyVec;
+    UPDATE p FROM population:p
+        SET p.COSINE_SIM_NORMAL = 0;
+}
+
+
+CREATE QUERY cosinesim_embed_vectors() FOR GRAPH xgraph_xilinx {
+    population = {patients.*};
+    UPDATE p FROM population:p
+        SET p.COSINE_SIM_VECTOR = patient_vector(p);
+}
+
+
+CREATE QUERY cosinesim_embed_normals() FOR GRAPH xgraph_xilinx {
+    # Cache normals, just for software cosine similarity
+    population = {patients.*};
+    UPDATE p FROM population:p
+        SET p.COSINE_SIM_NORMAL = udf_calculate_normal(p.COSINE_SIM_VECTOR);
+}
+
+
+#CREATE QUERY cosinesim_cache_to_vertices() FOR GRAPH xgraph_xilinx {
+#    cosinesim_embed_vectors();
+#    cosinesim_embed_normals();
+#}
+
+
+CREATE QUERY cosinesim_match_sw(vertex<patients> source, uint topKID) 
+FOR GRAPH xgraph_xilinx RETURNS (ListAccum<XilCosinesimMatch>) {
+
+# Heap with max size of topKID sorted decending by score then ascending last name
+    HeapAccum<XilCosinesimMatch>(topKID, score DESC, Id ASC) @@topK_Heap;
+    ListAccum<XilCosinesimMatch> @@topK;
+    ListAccum<vertex<patients>> @@plist;
+    ListAccum<INT> @@targetPatientVector;
+    DOUBLE targetPatientNormal;
+
+# Patient Population
+    population = {patients.*};
+    @@targetPatientVector = patient_vector(source);
+    targetPatientNormal = udf_calculate_normal(@@targetPatientVector);
+
+    patientList = SELECT p FROM population:p
+        ACCUM @@topK_Heap += XilCosinesimMatch(p,
+            udf_cos_theta(p.COSINE_SIM_VECTOR, p.COSINE_SIM_NORMAL, @@targetPatientVector, targetPatientNormal));
+
+    FOREACH item IN @@topK_Heap DO
+        @@topK += item; 
+    END;
+
+    RETURN @@topK;
+}
+
+CREATE DISTRIBUTED QUERY cosinesim_set_num_devices(UINT num_devices) FOR GRAPH xgraph_xilinx {
+    udf_xilinx_recom_set_num_devices(num_devices);
+}
+
+CREATE DISTRIBUTED QUERY cosinesim_get_num_devices() FOR GRAPH xgraph_xilinx RETURNS (UINT) {
+    UINT ret;
+    ret = udf_xilinx_recom_get_num_devices();
+    return ret;
+}
+
+CREATE DISTRIBUTED QUERY cosinesim_is_fpga_initialized() FOR GRAPH xgraph_xilinx RETURNS (BOOL) {
+    BOOL ret;
+    ret = udf_xilinx_recom_is_initialized();
+    RETURN ret;
+}
+
+create query load_graph_cosinesim_ss_fpga_core() for graph xgraph_xilinx returns (int) {
+    ListAccum<ListAccum<int> > @@patientVectors;
+    ListAccum<UINT> @@patientIds;
+    int ret;
+
+    population = {patients.*};
+    patientList = select p from population:p
+        ACCUM @@patientVectors += p.COSINE_SIM_VECTOR, @@patientIds += getvid(p);
+
+    ret = udf_xilinx_recom_load_population_vectors(population.size(), @@patientVectors, @@patientIds);
+    return ret;
+}
+
+create query cosinesim_ss_fpga_core (vertex<patients> source, uint topK) for 
+    graph xgraph_xilinx returns (ListAccum<XilCosinesimMatch>) 
+{
+    ListAccum<XilCosinesimMatch> @@results;
+    ListAccum<int> @@targetPatientVector;
+
+    population = {patients.*};
+
+    @@targetPatientVector = patient_vector(source);
+
+    @@results = udf_xilinx_recom_match_target_vector(topK, @@targetPatientVector);
+    return @@results;
+}
+
+
+install query patient_age, patient_race, patient_gender, patient_ethnicity, 
+    patient_vector, cosinesim_clear_embeddings, cosinesim_embed_vectors, cosinesim_embed_normals,
+    cosinesim_match_sw, cosinesim_set_num_devices,
+    cosinesim_get_num_devices, cosinesim_is_fpga_initialized,
+    load_graph_cosinesim_ss_fpga_core, cosinesim_ss_fpga_core
+I@20210430 15:56:15.193 xilinx|127.0.0.1:59260|00000000529 (CatalogManager.java:633) getCatalog: null
+I@20210430 15:56:15.193 xilinx|127.0.0.1:59260|00000000529 (QBNode.java:224) Reconcile users only
+I@20210430 15:56:15.193 xilinx|127.0.0.1:59260|00000000529 (CatalogManager.java:633) getCatalog: null
+I@20210430 15:56:15.193 xilinx|127.0.0.1:59260|00000000529 (QBNode.java:224) Reconcile users only
+I@20210430 15:56:15.194 xilinx|127.0.0.1:59260|00000000529 (CatalogManager.java:633) getCatalog: null
+I@20210430 15:56:15.194 xilinx|127.0.0.1:59260|00000000529 (CatalogManager.java:590) switch to graph 'xgraph_xilinx'.
+I@20210430 15:56:15.194 xilinx|127.0.0.1:59260|00000000529 (QBNode.java:224) Reconcile users only
+I@20210430 15:56:15.194 xilinx|127.0.0.1:59260|00000000529 (CatalogManager.java:633) getCatalog: xgraph_xilinx
+I@20210430 15:56:15.194 xilinx|127.0.0.1:59260|00000000529 (QBNode.java:224) Reconcile users only
+I@20210430 15:56:15.194 xilinx|127.0.0.1:59260|00000000529 (CatalogManager.java:633) getCatalog: xgraph_xilinx
+I@20210430 15:56:15.265 xilinx|127.0.0.1:59260|00000000529 (QBNode.java:224) Reconcile users only
+I@20210430 15:56:15.265 xilinx|127.0.0.1:59260|00000000529 (CatalogManager.java:633) getCatalog: xgraph_xilinx
+I@20210430 15:56:15.284 xilinx|127.0.0.1:59260|00000000529 (QBNode.java:224) Reconcile users only
+I@20210430 15:56:15.284 xilinx|127.0.0.1:59260|00000000529 (CatalogManager.java:633) getCatalog: xgraph_xilinx
+I@20210430 15:56:15.327 xilinx|127.0.0.1:59260|00000000529 (QBNode.java:224) Reconcile users only
+I@20210430 15:56:15.327 xilinx|127.0.0.1:59260|00000000529 (CatalogManager.java:633) getCatalog: xgraph_xilinx
+I@20210430 15:56:15.360 xilinx|127.0.0.1:59260|00000000529 (QBNode.java:224) Reconcile users only
+I@20210430 15:56:15.360 xilinx|127.0.0.1:59260|00000000529 (CatalogManager.java:633) getCatalog: xgraph_xilinx
+I@20210430 15:56:15.491 xilinx|127.0.0.1:59260|00000000529 (QBNode.java:224) Reconcile users only
+I@20210430 15:56:15.491 xilinx|127.0.0.1:59260|00000000529 (CatalogManager.java:633) getCatalog: xgraph_xilinx
+I@20210430 15:56:15.503 xilinx|127.0.0.1:59260|00000000529 (QBNode.java:224) Reconcile users only
+I@20210430 15:56:15.503 xilinx|127.0.0.1:59260|00000000529 (CatalogManager.java:633) getCatalog: xgraph_xilinx
+I@20210430 15:56:15.513 xilinx|127.0.0.1:59260|00000000529 (QBNode.java:224) Reconcile users only
+I@20210430 15:56:15.513 xilinx|127.0.0.1:59260|00000000529 (CatalogManager.java:633) getCatalog: xgraph_xilinx
+I@20210430 15:56:15.524 xilinx|127.0.0.1:59260|00000000529 (QBNode.java:224) Reconcile users only
+I@20210430 15:56:15.524 xilinx|127.0.0.1:59260|00000000529 (CatalogManager.java:633) getCatalog: xgraph_xilinx
+E@20210430 15:56:15.553 xilinx|127.0.0.1:59260|00000000529 (Catalog.java:1247) com.tigergraph.engine.util.a.a: 
+Semantic Check Error in query cosinesim_match_sw (SEM-45): line 231, col 43
+The tuple name XilCosinesimMatch is not defined.
+com.tigergraph.engine.util.a.a: 
+Semantic Check Error in query cosinesim_match_sw (SEM-45): line 231, col 43
+The tuple name XilCosinesimMatch is not defined.
+	at com.tigergraph.engine.util.Util.a(Util.java:579)
+	at com.tigergraph.engine.util.Util.a(Util.java:545)
+	at com.tigergraph.engine.semchecker.j.a(NameChecker.java:976)
+	at com.tigergraph.engine.semchecker.j.exitTupleTypeName(NameChecker.java:386)
+	at com.tigergraph.engine.parser.GSQLParser$TupleTypeNameContext.exitRule(GSQLParser.java:2374)
+	at org.antlr.v4.runtime.tree.ParseTreeWalker.exitRule(ParseTreeWalker.java:47)
+	at org.antlr.v4.runtime.tree.ParseTreeWalker.walk(ParseTreeWalker.java:30)
+	at org.antlr.v4.runtime.tree.ParseTreeWalker.walk(ParseTreeWalker.java:28)
+	at org.antlr.v4.runtime.tree.ParseTreeWalker.walk(ParseTreeWalker.java:28)
+	at org.antlr.v4.runtime.tree.ParseTreeWalker.walk(ParseTreeWalker.java:28)
+	at org.antlr.v4.runtime.tree.ParseTreeWalker.walk(ParseTreeWalker.java:28)
+	at org.antlr.v4.runtime.tree.ParseTreeWalker.walk(ParseTreeWalker.java:28)
+	at org.antlr.v4.runtime.tree.ParseTreeWalker.walk(ParseTreeWalker.java:28)
+	at com.tigergraph.engine.codegen.p.a(GSQL2UDFCompiler.java:851)
+	at com.tigergraph.schema.Catalog.a(Catalog.java:1178)
+	at com.tigergraph.schema.handler.QueryBlockHandler.a(QueryBlockHandler.java:455)
+	at com.tigergraph.schema.handler.QueryBlockHandler.a(QueryBlockHandler.java:195)
+	at com.tigergraph.schema.handler.QueryBlockHandler.a(QueryBlockHandler.java:137)
+	at com.tigergraph.schema.handler.FileHandler.a(FileHandler.java:47)
+	at com.tigergraph.schema.handler.BaseHandler.handle(BaseHandler.java:150)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+	at sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:72)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:82)
+	at sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:675)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+	at sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:647)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+I@20210430 15:56:15.554 xilinx|127.0.0.1:59260|00000000529 (QueryBlockHandler.java:158) exit on error 0
+I@20210430 15:56:15.554 xilinx|127.0.0.1:59260|00000000529 (BaseHandler.java:167) Failed|POST|/gsql/file|text/plain; charset=UTF-8|363ms
+I@20210430 15:56:15.557 xilinx|127.0.0.1:59260|00000000529 (BaseHandler.java:133) Received|POST|/gsql/abortclientsession|18
+I@20210430 15:56:15.557 xilinx|127.0.0.1:59260|00000000529 (AbortClientSessionHandler.java:34) AbortSession added for session = 00000000529
+I@20210430 15:56:15.557 xilinx|127.0.0.1:59260|00000000529 (SessionManager.java:234) Interrupt thread 'pool-4-thread-26' in session: 00000000529
+I@20210430 15:56:15.557 xilinx|127.0.0.1:59260|00000000529 (BaseHandler.java:167) Failed|POST|/gsql/abortclientsession|text/plain; charset=UTF-8|0ms
+I@20210430 15:56:16.059 xilinx|127.0.0.1:59326|00000000530 (BaseHandler.java:133) Received|POST|/gsql/login|28
+I@20210430 15:56:16.060 xilinx|127.0.0.1:59326|00000000530 (LoginHandler.java:52) The gsql client is started on the server, and the working directory is /home/xilinx/alexp
+I@20210430 15:56:16.060 xilinx|127.0.0.1:59326|00000000530 (LoginHandler.java:80) Successful|Login|tigergraph
+I@20210430 15:56:16.060 xilinx|127.0.0.1:59326|00000000530 (BaseHandler.java:167) Successful|POST|/gsql/login|application/json; charset=UTF-8|1ms
+I@20210430 15:56:16.065 tigergraph|127.0.0.1:59326|00000000530 (BaseHandler.java:133) Received|POST|/gsql/file|9
+I@20210430 15:56:16.065 tigergraph|127.0.0.1:59326|00000000530 (FileHandler.java:42) show user
+I@20210430 15:56:16.065 tigergraph|127.0.0.1:59326|00000000530 (CatalogManager.java:633) getCatalog: null
+I@20210430 15:56:16.065 tigergraph|127.0.0.1:59326|00000000530 (QBNode.java:224) Reconcile users only
+I@20210430 15:56:16.066 tigergraph|127.0.0.1:59326|00000000530 (CatalogManager.java:633) getCatalog: null
+I@20210430 15:56:16.066 tigergraph|127.0.0.1:59326|00000000530 (BaseHandler.java:167) Successful|POST|/gsql/file|text/plain; charset=UTF-8|1ms
+I@20210430 15:56:16.069 tigergraph|127.0.0.1:59326|00000000530 (BaseHandler.java:133) Received|POST|/gsql/abortclientsession|18
+I@20210430 15:56:16.070 tigergraph|127.0.0.1:59326|00000000530 (AbortClientSessionHandler.java:34) AbortSession added for session = 00000000530
+I@20210430 15:56:16.070 tigergraph|127.0.0.1:59326|00000000530 (SessionManager.java:234) Interrupt thread 'pool-4-thread-26' in session: 00000000530
+I@20210430 15:56:16.070 tigergraph|127.0.0.1:59326|00000000530 (BaseHandler.java:167) Successful|POST|/gsql/abortclientsession|text/plain; charset=UTF-8|0ms
+I@20210430 15:56:16.585 tigergraph|127.0.0.1:59368|00000000531 (BaseHandler.java:133) Received|POST|/gsql/login|24
+I@20210430 15:56:16.585 tigergraph|127.0.0.1:59368|00000000531 (LoginHandler.java:52) The gsql client is started on the server, and the working directory is /home/xilinx/alexp
+I@20210430 15:56:16.585 tigergraph|127.0.0.1:59368|00000000531 (CatalogManager.java:590) switch to graph 'xgraph_xilinx'.
+I@20210430 15:56:16.585 tigergraph|127.0.0.1:59368|00000000531 (LoginHandler.java:80) Successful|Login|xilinx
+I@20210430 15:56:16.585 tigergraph|127.0.0.1:59368|00000000531 (BaseHandler.java:167) Successful|POST|/gsql/login|application/json; charset=UTF-8|0ms
+I@20210430 15:56:16.590 xilinx|127.0.0.1:59368|00000000531 (BaseHandler.java:133) Received|POST|/gsql/file|72
+I@20210430 15:56:16.590 xilinx|127.0.0.1:59368|00000000531 (FileHandler.java:42) set query_timeout=240000000 run query cosinesim_clear_embeddings()
+I@20210430 15:56:16.591 xilinx|127.0.0.1:59368|00000000531 (CatalogManager.java:633) getCatalog: xgraph_xilinx
+I@20210430 15:56:16.591 xilinx|127.0.0.1:59368|00000000531 (QBNode.java:224) Reconcile users only
+I@20210430 15:56:16.591 xilinx|127.0.0.1:59368|00000000531 (CatalogManager.java:633) getCatalog: xgraph_xilinx
+I@20210430 15:56:16.591 xilinx|127.0.0.1:59368|00000000531 (QBNode.java:224) Reconcile users only
+I@20210430 15:56:16.591 xilinx|127.0.0.1:59368|00000000531 (CatalogManager.java:633) getCatalog: xgraph_xilinx
+I@20210430 15:56:16.591 xilinx|127.0.0.1:59368|00000000531 (QueryRunner.java:189) Semantic Check Fails: The query cosinesim_clear_embeddings has not been installed yet!
+I@20210430 15:56:16.591 xilinx|127.0.0.1:59368|00000000531 (QueryBlockHandler.java:158) exit on error 0
+I@20210430 15:56:16.591 xilinx|127.0.0.1:59368|00000000531 (BaseHandler.java:167) Failed|POST|/gsql/file|text/plain; charset=UTF-8|1ms
+I@20210430 15:56:16.594 xilinx|127.0.0.1:59368|00000000531 (BaseHandler.java:133) Received|POST|/gsql/abortclientsession|18
+I@20210430 15:56:16.594 xilinx|127.0.0.1:59368|00000000531 (AbortClientSessionHandler.java:34) AbortSession added for session = 00000000531
+I@20210430 15:56:16.594 xilinx|127.0.0.1:59368|00000000531 (SessionManager.java:234) Interrupt thread 'pool-4-thread-26' in session: 00000000531
+I@20210430 15:56:16.594 xilinx|127.0.0.1:59368|00000000531 (BaseHandler.java:167) Failed|POST|/gsql/abortclientsession|text/plain; charset=UTF-8|0ms
